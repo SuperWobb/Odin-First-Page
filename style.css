@@ -57,10 +57,11 @@ button {
 
 .cont1 {
     display: flex;
+    padding: 16px;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     height: 540px;
     width: 80%;
     background-color: #1f2937AA;
@@ -87,10 +88,11 @@ h1 {
     font-size: 18px;
 }
 
-.cont1-2 {
+.cont1 img {
+    object-fit: contain;
     display: flex;
-    width: auto;
-    height: 300px;
+    max-width: 80%;
+    max-height: 80%;
 }
 
 .cont2 {
