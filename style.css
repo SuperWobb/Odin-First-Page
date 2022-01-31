@@ -144,19 +144,25 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("./img/imgBG2.jfif");
-    background-size: 100%;
+    background-image: url("./img/imgBG2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
     height: 500px;
 }
 
 #text2 {
     color: #1f2937;
-    font-size: 36px;
+    font-size: 48px;
     font-style: italic;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
 }
 
 #text3 {
     margin-left: 500px;
+    font-size: 24px;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
     font-weight: bold;
 
 }
